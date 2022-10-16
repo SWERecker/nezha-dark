@@ -1,0 +1,68 @@
+<style>
+@media(prefers-color-scheme:dark) {
+  html,
+  body {
+    background-color: #272822;
+    color: #F0F8FF;
+  }
+  
+  .ui.success.message .header {
+    color: #1a531b !important;
+  }
+  
+  .ui.warning.message .header {
+    color: #794b02 !important;
+  }
+  
+  .ui.styled.accordion,
+  .ui.styled.accordion .active.title,
+  .ui.styled.accordion .title,
+  .ui.menu .right.menu .dropdown:last-child .menu,
+  .status.cards .ui.content.popup,
+  .ui.four.cards>.card,
+  .ui.modal>.header,
+  .ui.modal>.content,
+  .ui.modal>.actions,
+  .ui.large.menu {
+    background-color: #3B3B3B;
+    color: #F0F8FF;
+  }
+  
+  .ui.styled.accordion .title:hover {
+    color: #b1b1b1;
+  }
+  
+  .ui.accordion .accordion .active.content,
+  .ui.accordion .active.content,
+  .ui.left.center.popup:before,
+  .ui.right.center.popup:before,
+  .ui.bottom.popup:before,
+  .ui.top.left.popup:before {
+    background-color: #3B3B3B;
+  }
+  
+  .description,
+  .header,
+  .ui.menu .active.item,
+  .ui.menu .item,
+  .ui.menu .ui.dropdown .menu>.item {
+    color: #F0F8FF !important;
+  }
+  
+  .ui.menu .ui.dropdown .menu>.item:hover {
+    color: #b1b1b1 !important;
+  }
+  
+  table, tr, th, td {
+    background-color: #3B3B3B !important;
+    color: #F0F8FF !important;
+  }
+
+  [data-tooltip]:after,
+  [data-tooltip]:hover:after,
+  [data-tooltip].popup:before {
+    background-color: #3B3B3B !important;
+    color: #F0F8FF !important;
+  }
+}
+</style>
